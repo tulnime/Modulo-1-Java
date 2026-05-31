@@ -1,0 +1,123 @@
+* {padding: 0;
+margin: 0;
+}
+
+header{ 
+    width: 100%;
+    min-height: 200px;
+  
+}
+
+.header{ width: 99%;
+    margin: auto;
+    display: flex;
+    min-height: 200px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+     
+    
+}
+
+.header_logo{ 
+
+    width: 15%;
+    min-height: 200px;
+ border-right: 1px solid black;
+   background-image: url("img/Icono.png");
+    background-size: auto;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.header_img{ 
+    width: 85%;
+    background-color: azure;
+    min-height: 200px;
+     background-image: url("img/Head.png");
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.body{
+    width: 99%;
+    border: 1px solid black;
+    margin: auto ; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 5px;
+    min-height: 50em;
+}
+aside{ 
+    width: 15%;
+     border-right: 1px solid black;
+}
+
+.menu{ 
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+.menu>ul{
+    width: 89%;
+}
+.menu>ul>li{ 
+    background-color: lab(77.02% 7.05 30.01);
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    list-style: none;
+    font-style: none;
+}
+.menu>ul>li:hover{ 
+    transition: 0.3s;
+    background-color:  lab(55.58% 4.99 22.16);
+    padding: 22px;
+    font-size: 22px;
+}
+
+.content{ 
+    width: 85%;
+    height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: nowrap column;
+        background-image: url("img/Body.png");
+   background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+   
+}
+
+.content>form{ 
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 5px;
+    background-color: transparent;
+
+}
+
+form>input{ background-color: transparent;
+    padding: 0 20px 0;
+    margin: 5px 0 5px ;
+    border: 1 solid gainsboro; 
+
+}
+
+form>select{ 
+    background-color: transparent;
+}
+
+form>input:selected{
+    border: 1px solid gainsboro;
+}

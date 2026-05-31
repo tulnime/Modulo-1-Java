@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="Java.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header> 
+        <Div class="header">  
+            <div class=" header_logo">
+                
+            </div>
+            <div class="header_img">
+        </Div> 
+    </header>
+    
+
+    <div class="body">
+
+    <aside class="body_menu">
+        <section class="menu"> 
+            <ul> 
+                <li> 
+                    <p>Home</p> 
+                </li>
+                <li> 
+                    <p>Calculadora</p>
+                </li>
+
+                <li>
+                     <p> Img</p>
+                </li>
+            </ul>
+        </section> 
+
+    </aside>
+
+        <section class="content">
+            <h2 class="body_title"> Calculadora</h2>
+
+            <form action="#" method="get"  id="convertidor">
+                <label for="numero">Introduce tu medida a convertir</label>
+                <input type="number" name="numero" id="number">
+
+
+                <label for="medida"> Escoje el sistema de medida de tu unidad</label>
+                <select name="origen" id="origen"> 
+                    <option value="disabled" disabled selected> Escoje la medida de tu unidad</option>
+                    <option value="kilometro"> Kilometro</option>
+                    <option value="metros"> Metro</option>
+                    <option value="centimetros"> Centimetro</option>
+                    <option value="milimetros"> Milimetro</option>
+                </select>
+
+                  <select name="destino" id="destino"> 
+                    <option value="disabled" disabled selected> Escoje la medida que deseas convertir</option>
+                    <option value="kilometro"> Kilometro</option>
+                    <option value="metros"> Metro</option>
+                    <option value="centimetros"> Centimetro</option>
+                    <option value="milimetros"> Milimetro</option>
+                </select>
+              <button type="button" id="botonConvertir">
+    Convertir
+</button>
+            </form>
+       <script src="Java.Js"></script>
+        </section>
+
+    </div>
+
+
+
+</body>
+</html>
